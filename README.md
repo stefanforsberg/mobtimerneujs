@@ -1,8 +1,25 @@
-## Install neutralino
+# Mob timer
 
-npm install -g @neutralinojs/neu
+## Getting started
 
-(Perhaps better up to date instructions at https://neutralino.js.org/docs/getting-started/your-first-neutralinojs-app)
+1. `npm install`
+1. `npm run update`
 
-`neu run` to run locally
-`neu build --release` to create binaries
+## Development
+
+Start the application in development mode:
+
+`npm start`
+
+If you prefer running the neu CLI globally:
+
+1. `npm install -g @neutralinojs/neu`
+1. `neu run`
+
+## Release
+
+`npm run build` (or `neu build --release` via the neu CLI) to create binaries.
+
+## Read more
+
+Perhaps better up to date instructions at https://neutralino.js.org/docs/getting-started/your-first-neutralinojs-app.
